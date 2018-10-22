@@ -17,9 +17,9 @@ The different types of operators in Python are listed below:
 
 #### Arithmetic Operators
 
-An arithmetic operator takes two operands as input, performs a calculation and returns the result. 
+An arithmetic operator takes minimum two operands as input, performs a calculation and returns the result. 
 
-Consider the expression, <b>“a = 2 + 3”</b>. Here, `2` and `3` are the <i>operands</i> and `+` is the <i>arithmetic operator</i>. The result of the operation is stored in the variable a.
+Consider the expression, <b>“a = 2 + 3”</b>. Here, `2` and `3` are the <i>operands</i> and `+` is the <i>arithmetic operator</i>. The result of the operation is stored in the variable `a`.
 
 <table style="width:100%">
   <tr>
@@ -60,7 +60,7 @@ Consider the expression, <b>“a = 2 + 3”</b>. Here, `2` and `3` are the <i>op
   <tr>
     <td align="center">**</td>
     <td>Performs an Exponentiation operation. <br>The left operand is raised to the power of right operand</td> 
-    <td>12 ** 3 = 1728</td>
+    <td>2 ** 3 = 8</td>
   </tr>
   <tr>
     <td align="center">//</td>
@@ -84,7 +84,7 @@ A comparison or relational operator is used to compare two operands to decide a 
   <tr>
     <td align="center">></td>
     <td>Returns True if the left operand is greater than the right operand<br>Returns False otherwise</td> 
-    <td>12 > 3 returns True</td>
+    <td>12 > 3 returns True <br>[1, 2, 3] == [1, 2, 3] <br>returns True</td>
   </tr>
   <tr>
     <td align="center"><</td>
@@ -109,6 +109,11 @@ A comparison or relational operator is used to compare two operands to decide a 
   <tr>
     <td align="center">!=</td>
     <td>Returns True if both the operands are not equal<br>Returns False otherwise</td> 
+    <td>12 != 3 returns True</td>
+  </tr>
+  <tr>
+    <td align="center"><></td>
+    <td>Returns True if both the operands are not equal.<br> Returns False otherwise.(Works only in Python 2)</td> 
     <td>12 != 3 returns True</td>
   </tr>
 </table>
@@ -240,17 +245,17 @@ A logical operator is used to make a decision based on multiple conditions. The 
   <tr>
     <td align="center">and</td>
     <td>Returns True if both the operands are True<br>Returns False otherwise</td>
-    <td>a and b</td>
+    <td>False and True returns False<br> True and True returns True</td>
   </tr>
   <tr>
     <td align="center">or</td>
     <td>Returns True if any one of the operands are True<br>Returns False otherwise</td>
-    <td>a or b</td>
+    <td>False or True returns True<br> False or False returns False</td>
   </tr>
   <tr>
     <td align="center">not</td>
     <td>Returns True if the operand is False<br>Returns False otherwise</td>
-    <td>not a</td>
+    <td>not True returns False <br>not False returns True</td>
   </tr>
   <tr>
 </table>
